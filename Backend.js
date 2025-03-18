@@ -30,7 +30,7 @@ run().catch(console.dir);
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://flybooking.onrender.com";
 const aircrafts = [804, 806, 809, 811, 813, 817, 836, 838, 839, 803, 810, 815, 843, 844, 845, 846];
 
 export default function AircraftBooking() {
