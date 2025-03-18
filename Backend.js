@@ -1,3 +1,6 @@
+import { useState, useEffect } from "react";
+import { Button } from "@/components/ui/button";
+
 
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const uri = "mongodb+srv://BrageHN:<db_password>@flybooking.45yvr.mongodb.net/?retryWrites=true&w=majority&appName=Flybooking";
@@ -25,10 +28,6 @@ async function run() {
 }
 run().catch(console.dir);
 
-
-
-import { useState, useEffect } from "react";
-import { Button } from "@/components/ui/button";
 
 const API_URL = "https://flybooking.onrender.com";
 const aircrafts = [804, 806, 809, 811, 813, 817, 836, 838, 839, 803, 810, 815, 843, 844, 845, 846];
