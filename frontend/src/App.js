@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 
-const API_URL = "https://aircraft-booking-api.onrender.com/api";
+const API_URL = "";
 const flights = [804, 806, 809, 811, 813, 817, 836, 838, 839, 803, 810, 815, 843, 844, 845, 846];
 
 export default function AircraftBooking() {
